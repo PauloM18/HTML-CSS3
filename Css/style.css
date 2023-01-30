@@ -1,0 +1,209 @@
+@charset "UTF-8";
+
+body {
+    font-family: bolder Arial, Helvetica, sans-serif;
+    background-color:#94c4a7;
+    margin: auto;   
+}
+
+
+header {
+    background-image: linear-gradient(to top,#013109,#025c11b6);
+    margin: 0px;
+    box-shadow: 1px 1px 7px 1px #00000052;
+}
+header > h1 {
+    font-family: 'Fondamento', cursive, sans-serif;
+    text-align: center;
+    color: white;
+    margin: 0px;
+    padding: 40px 0px 5px 0px;
+    text-shadow: 1px 1px 7px #000000ad;
+}
+header > p {
+    font-family: 'Fondamento', cursive, sans-serif;
+    text-align: center;
+    color: white;
+    margin: 15px;
+    padding: 0px;
+    font-weight: bold;
+    text-shadow: 1px 2px 5px #000000d3; 
+}
+
+
+nav {
+    margin-left: 30px;
+    padding: 10px;
+}
+nav > a {
+    font-family: 'Fondamento', cursive, sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    margin-right: 30px;
+}
+nav > a:hover {
+    text-decoration: wavy;
+    background-color: #ffffffcb;
+    border-radius: 1px;
+    color: #312b2b98;
+    box-shadow: 0px 0px 7px 5px #ffffffcb;
+}
+
+a#link {
+    background-image:linear-gradient(to left, #94c4a77a,#94c4a7);
+    font-family: 'Fondamento', cursive, sans-serif;
+    text-decoration: none;
+    border-radius: 2px;
+    color: #013109;
+    margin: 2px;
+    padding: 0px;
+}
+a#link:hover {
+    text-decoration: solid;
+    background-color: #94c4a77a;
+    color: #000000;
+    box-shadow:1px 1px #94c4a7;
+}
+
+
+main {
+    background-color: white;
+    box-shadow: 1px 1px 7px 1px #00000052;
+    width: 850px;
+    margin: auto auto 20px auto;
+    padding: 1px 1px 10px 1px;
+    border-radius: 0px 0px 20px 20px;    
+}
+
+
+article#principal > h1{
+    font:2em 'Fondamento', cursive, sans-serif;
+    margin: 20px 10px 10px 10px;
+    padding: 2px;
+    color: #013109; 
+}
+article#principal > h2 {
+    font:1em 'Fondamento', cursive, sans-serif;
+    background-image:linear-gradient( to left, #94c4a77a, #94c4a7);
+    color: #013109;
+    margin: 10px;
+    padding: 2px;
+    border-radius: 2px;
+}
+article#principal > p { 
+    font:normal 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+    text-indent: 30px;
+    margin: 10px; 
+    padding: 2px;
+}
+picture > img{
+    padding: 2px;
+    margin: 20px;
+    text-align: center;
+}
+
+
+div#base{
+    box-shadow: 1px 1px 7px 1px #00000052;
+    background-color:#013109;
+    margin:0px; 
+    padding: 40px;
+    text-align: center;
+}
+
+
+article#secundario{
+    background-color: #94c4a77a;
+    padding: 5px 0px 0px 0px;
+    margin: 0px 20px 20px 20px;
+    border-radius: 0px 0px 20px 20px;
+}
+
+#secundario > p {
+    text-align: justify;
+    text-indent: 15px;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+article#terceiro {
+    background-color: #94c4a7;
+    margin: 20px 20px 0px 20px;
+    padding: 1px;
+    border-radius: 20px 20px 0px 0px;
+}
+#terceiro > p {
+    font: bold 1.2em 'Fondamento', cursive, sans-serif;
+    text-align: justify;
+    text-indent: 15px;
+    color: white;
+    padding: 0px;
+    margin: 2px;
+}
+
+
+div#lista1 {
+    border: 0px;
+    background-color: #94c4a700;
+    display: inline-block;
+    width: 350px;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+}
+div#lista2 {
+    border: 0px;
+    background-color: #94c4a700;
+    display: inline-block;
+    width: 350px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+ul#esquedar {
+    list-style-image: url(imagens/check.png);
+    margin: 0px;
+}
+ul#direita {
+    list-style-image: url(imagens/check.png);
+    margin: 0px;
+}
+
+section#segundo {
+    text-align: justify;
+    text-indent: 40px;
+    margin: 5px;
+    padding: 5px;
+}
+
+mark {
+    background-color: #ffffff;
+    background-image:linear-gradient(to left, #94c4a77a,#94c4a7);
+    font-family: 'Fondamento', cursive, sans-serif;
+    border-radius: 2px;
+    color: #013109;
+    margin: 2px;
+    padding: 0px;
+}
+mark:hover{
+    text-decoration: solid;
+    background-color: #94c4a77a;
+    color: #000000;
+    box-shadow:1px 1px #94c4a7;
+}
+
+
+footer {
+    background-color: #013109;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 4px;
+}
+footer > p {
+    margin: 0px;
+}
